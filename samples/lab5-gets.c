@@ -2,6 +2,6 @@
  
 int main() {
     char src[40];
-    gets(src);
+    fgets(src, sizeof(src), stdin);
     return 0;
 }
